@@ -1,6 +1,6 @@
 /*
  Copyright (C) Ubeyin, Co. 2021
- Distributed under the MIT License (license terms are at http://opensource.org/licenses/MIT).
+ Distributed under the Apache 2.0 License (license terms are at https://opensource.org/licenses/Apache-2.0).
  */
 (function (e, k) {
     'object' == typeof exports && 'undefined' != typeof module ? module.exports = k() : 'function' == typeof define && define.amd ? define(k) : e.Purein = k()
@@ -209,4 +209,8 @@
  * .GPS()
  * .SCOPE() (beta)
  * .COMPONENT() (beta)
+ * --------->
+ * .KEY() (Coming soon in 1.1)
+ * .COMPONENT() (Updates coming in 1.1)
+ * .(Bug Fixed) (Coming soon in 1.1)
  ***/
