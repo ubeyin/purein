@@ -2,7 +2,7 @@
  Copyright (C) Ubeyin, Co. 2021
  Distributed under the Apache 2.0 License (license terms are at https://opensource.org/licenses/Apache-2.0).
  */
-(function (e, k) {
+ (function (e, k) {
     'object' == typeof exports && 'undefined' != typeof module ? module.exports = k() : 'function' == typeof define && define.amd ? define(k) : e.Purein = k()
 })(this, function () {
     'use strict';
@@ -204,13 +204,11 @@
 
 /***
  ** Purein 1.0 - A pure frameworks
- * .AJAX()
- * .URL()
- * .GPS()
- * .SCOPE() (beta)
- * .COMPONENT() (beta)
- * --------->
- * .KEY() (Coming soon in 1.1)
- * .COMPONENT() (Updates coming in 1.1)
- * .(Bug Fixed) (Coming soon in 1.1)
+ ***/
+/***
+ * .AJAX() [new]
+ * .URL()  [new]
+ * .GPS()  [new]
+ * .SCOPE() [new]
+ * .COMPONENT() [new]
  ***/
